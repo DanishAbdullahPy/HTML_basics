@@ -1,0 +1,69 @@
+How to center a DIv 1
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: grid;
+            place-items: center;
+            height: 100vh; /* Optional: Make the div fill the viewport height */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Your content goes here -->
+    </div>
+</body>
+</html>
+
+
+      part 2 using flex box
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .center {
+            display: flex;
+            justify-content: center; /* Horizontal centering */
+            align-items: center; /* Vertical centering */
+            height: 100vh; /* Optional: Make the div fill the viewport height */
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <!-- Your content goes here -->
+    </div>
+</body>
+</html>
+
+
+
+
+      using absolute positioning 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <!-- Your content goes here -->
+    </div>
+</body>
+</html>
+
